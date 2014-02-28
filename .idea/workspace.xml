@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="630395b2-735a-4f70-aeb9-5f6e0492ad49" name="Default" comment="" />
+    <list default="true" id="630395b2-735a-4f70-aeb9-5f6e0492ad49" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="rsf.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,28 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="common.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="common.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="28" selection-start="87" selection-end="87" vertical-scroll-proportion="0.07097792" vertical-offset="0" max-vertical-offset="634">
+            <state line="3" column="28" selection-start="87" selection-end="87" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interceptor.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-web/config/interceptor.php">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-web/config/router.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
+            <state line="54" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.93161094" vertical-offset="197" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
@@ -59,23 +52,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.php">
+      <file leaf-file-name="router.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-web/config/router.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="375">
+            <state line="5" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RSF.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/class/RSF.php">
+      <file leaf-file-name="MyMemcache.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/class/MyMemcache.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="219" column="47" selection-start="6542" selection-end="6542" vertical-scroll-proportion="-12.125" vertical-offset="2994" max-vertical-offset="3750">
-              <folding>
-                <marker date="1393578168000" expanded="false" signature="4497:4555" placeholder="..." />
-                <marker date="1393578168000" expanded="false" signature="4597:4619" placeholder="..." />
-              </folding>
+            <state line="12" column="25" selection-start="408" selection-end="408" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="345">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="memcache.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/memcache.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="6" selection-start="931" selection-end="931" vertical-scroll-proportion="-8.958333" vertical-offset="625" max-vertical-offset="5130">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="375">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,15 +101,6 @@
         <entry file="file://$PROJECT_DIR$/app-core/class/bll/web/Album.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="26" selection-start="482" selection-end="482" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="540">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CacheDao.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-core/class/dao/CacheDao.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="209" column="35" selection-start="6498" selection-end="6498" vertical-scroll-proportion="-8.291667" vertical-offset="2936" max-vertical-offset="3570">
               <folding />
             </state>
           </provider>
@@ -142,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app-tv/index.php" />
         <option value="$PROJECT_DIR$/app-tv/config/common.php" />
         <option value="$PROJECT_DIR$/app-tv/controller/tv/Index.php" />
         <option value="$PROJECT_DIR$/app-tv/view/TvFrame.php" />
@@ -193,6 +191,7 @@
         <option value="$PROJECT_DIR$/app-core/class/bll/web/Album.php" />
         <option value="$PROJECT_DIR$/app-web/controller/web/Index.php" />
         <option value="$PROJECT_DIR$/config/common.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -283,6 +282,56 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rsf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rsf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rsf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -728,26 +777,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app-web/config/common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="658">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-web/config/router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/class/RSF.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="219" column="47" selection-start="6542" selection-end="6542" vertical-scroll-proportion="-12.125" vertical-offset="2994" max-vertical-offset="3750">
           <folding>
-            <marker date="1393578168000" expanded="false" signature="4497:4555" placeholder="..." />
-            <marker date="1393578168000" expanded="false" signature="4597:4619" placeholder="..." />
+            <marker date="1393578168000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1393578168000" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -789,7 +824,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="87" selection-end="87" vertical-scroll-proportion="0.07097792" vertical-offset="0" max-vertical-offset="634">
+        <state line="3" column="28" selection-start="87" selection-end="87" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/memcache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="6" selection-start="931" selection-end="931" vertical-scroll-proportion="-8.958333" vertical-offset="625" max-vertical-offset="5130">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/class/MyMemcache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="25" selection-start="408" selection-end="408" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-web/config/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="658">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-web/config/router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.93161094" vertical-offset="197" max-vertical-offset="915">
           <folding />
         </state>
       </provider>
