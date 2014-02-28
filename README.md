@@ -52,4 +52,6 @@ config/database.php
 
 6.最好用自己数据库和memcache
 
+7.数据库的话
+reco_music->album->{album_id,desc}
 
