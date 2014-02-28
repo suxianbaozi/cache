@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<?php if($this->get_description()) : ?>
+<meta name="Description" content="<?=$this->get_description()?>" />
+<?php endif; ?>
+<?php if($this->get_keywords()) : ?>
+<meta name="Keywords" content="<?=$this->get_keywords()?>" />
+<?php endif; ?>
+<title><?=$this->get_title()?></title>
+<link rel="stylesheet" rev="stylesheet" href="<?=$this->build_css_url()?>" type="text/css" />
+<link rel="shortcut icon" href="<?=UrlBuilder::build_static('images/icon.png')?>" />
+</head>
+<body>
+<div id="Wrapper">
+        <?php new Web_HeaderPlugin();?>
+        <div id="content">
+            
+            <div id="contentInner">
+                
+                
+                <?php
+                new Web_TopNaviPlugin(
+                array(
+                    'path'=>$this->get_main_path()
+                ));?>
+                
+                <div id="main">
+                	<div class="move">
+	                    <a href="javascript:void(0)" class="moveTop" id="moveTop">Top</a>
+	                    <a onclick="PLAYERAPI.openPlayer()" href="javascript:;" class="openPlayer" id="openPlayer">打开播放器</a>
+	                </div>
+                    <?php
+                    $this->build_content();
+                    ?>
+                    
+                </div>
+            </div>
+        </div>
+        <?php new Web_FooterPlugin(); ?>
+    </div>
+  
+<?php new Common_AlertBoxPlugin(); ?>
+<?php foreach($this->get_static_js_list() as $js):?>
+<script type="text/javascript" src="<?=UrlBuilder::build_static($js); ?>"></script>
+<?php endforeach;?>
+<script type="text/javascript" src="<?=$this->build_js_url()?>"></script>
+<?php $this->write_script_blocks(); ?>
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F3dba71024b6d3dbffef553d6d11ed05a' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42530323-1', 'reco.cn');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

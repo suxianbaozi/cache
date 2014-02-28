@@ -1,0 +1,32 @@
+#myDialog {
+	display: none;
+	top: 15%!important;
+	width: 303px;
+}
+/*
+#myDialog input[type="button"] {
+	text-indent: 0;
+	background: repeat-x scroll 0 0 transparent url(<?=UrlBuilder::build_static('images/btn/bg_btn_gray.png')?>);
+	width: 78px;
+	height: 36px;
+}
+#myDialog input[type="button"]:hover {
+	background: repeat-x scroll 0 0 transparent url(<?=UrlBuilder::build_static('images/btn/bg_btn_gray_hover.png')?>);
+	color: #333333;
+}
+*/
+#myDialog input.ok, #myDialog input.close {
+	background: no-repeat scroll -471px -286px transparent url(<?=UrlBuilder::build_static('images/management.png')?>);
+	height: 22px;
+	width: 49px;
+	line-height: 20px;
+	padding-bottom: 0;
+	color: #333;
+}
+#myDialog input.ok:hover, #myDialog input.close:hover {
+	background-position: -471px -308px;
+	color: #fff;
+}
+#myDialog input.ok:active, #myDialog input.close:active {
+	background-position: -471px -330px;
+}

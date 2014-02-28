@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="630395b2-735a-4f70-aeb9-5f6e0492ad49" name="Default" comment="" />
+    <ignored path="rsf.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="rsf" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="common.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/common.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="28" selection-start="87" selection-end="87" vertical-scroll-proportion="0.07097792" vertical-offset="0" max-vertical-offset="634">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interceptor.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-web/config/interceptor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="router.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-web/config/router.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-web/config/common.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RSF.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/class/RSF.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="219" column="47" selection-start="6542" selection-end="6542" vertical-scroll-proportion="-12.125" vertical-offset="2994" max-vertical-offset="3750">
+              <folding>
+                <marker date="1393578168000" expanded="false" signature="4497:4555" placeholder="..." />
+                <marker date="1393578168000" expanded="false" signature="4597:4619" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-web/controller/web/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="21" selection-start="578" selection-end="578" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="570">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Album.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-core/class/bll/web/Album.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="26" selection-start="482" selection-end="482" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CacheDao.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-core/class/dao/CacheDao.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="209" column="35" selection-start="6498" selection-end="6498" vertical-scroll-proportion="-8.291667" vertical-offset="2936" max-vertical-offset="3570">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interceptor.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/interceptor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Push.Settings">
+    <option name="myUpdateMethod" value="REBASE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app-tv/index.php" />
+        <option value="$PROJECT_DIR$/app-tv/config/common.php" />
+        <option value="$PROJECT_DIR$/app-tv/controller/tv/Index.php" />
+        <option value="$PROJECT_DIR$/app-tv/view/TvFrame.php" />
+        <option value="$PROJECT_DIR$/app-tv/view/TvFrame.js" />
+        <option value="$PROJECT_DIR$/app-puzz/index.php" />
+        <option value="$PROJECT_DIR$/app-tv/view/tv/Index.js" />
+        <option value="$PROJECT_DIR$/app-tv/view/tv/Index.phtml" />
+        <option value="$PROJECT_DIR$/app-tv/view/tv/Index.php" />
+        <option value="$PROJECT_DIR$/app-tv/view/TvFrame.phtml" />
+        <option value="$PROJECT_DIR$/app-admin/view/admin/fm/RadioList.js" />
+        <option value="$PROJECT_DIR$/app-core/class/bll/fm/Radio.php" />
+        <option value="$PROJECT_DIR$/app-core/class/bll/fm/Program.php" />
+        <option value="$PROJECT_DIR$/app-fm/controller/fm/Program.php" />
+        <option value="$PROJECT_DIR$/app-core/class/bll/fm/MusicRepo.php" />
+        <option value="$PROJECT_DIR$/app-core/class/bll/fm/Music.php" />
+        <option value="$PROJECT_DIR$/app-admin/controller/admin/ajax/Fm.php" />
+        <option value="$PROJECT_DIR$/app-admin/config/router.php" />
+        <option value="$PROJECT_DIR$/app-admin/view/admin/fm/Notifications.php" />
+        <option value="$PROJECT_DIR$/app-admin/view/admin/fm/Notifications.phtml" />
+        <option value="$PROJECT_DIR$/app-admin/controller/admin/fm/Notifications.php" />
+        <option value="$PROJECT_DIR$/app-admin/view/admin/fm/Notifications.js" />
+        <option value="$PROJECT_DIR$/app-core/class/bll/fm/Notifications.php" />
+        <option value="$PROJECT_DIR$/app-fm/controller/fm/RadioList.php" />
+        <option value="$PROJECT_DIR$/app-admin/view/admin/fm/Index.php" />
+        <option value="$PROJECT_DIR$/app-tv/controller/Tv/SubjectList.php" />
+        <option value="$PROJECT_DIR$/app-tv/view/tv/SubjectList.js" />
+        <option value="$PROJECT_DIR$/app-tv/view/tv/SubjectList.css" />
+        <option value="$PROJECT_DIR$/app-tv/view/tv/SubjectList.php" />
+        <option value="$PROJECT_DIR$/app-tv/view/tv/SubjectList.phtml" />
+        <option value="$PROJECT_DIR$/app-tv/controller/Tv/Subject.php" />
+        <option value="$PROJECT_DIR$/app-tv/view/tv/Subject.phtml" />
+        <option value="$PROJECT_DIR$/app-tv/view/tv/Subject.php" />
+        <option value="$PROJECT_DIR$/app-tv/view/tv/Subject.js" />
+        <option value="$PROJECT_DIR$/app-tv/view/tv/App.css" />
+        <option value="$PROJECT_DIR$/app-tv/view/tv/App.js" />
+        <option value="$PROJECT_DIR$/app-tv/view/tv/App.php" />
+        <option value="$PROJECT_DIR$/app-tv/view/tv/App.phtml" />
+        <option value="$PROJECT_DIR$/app-tv/controller/Tv/App.php" />
+        <option value="$PROJECT_DIR$/app-tv/config/router.php" />
+        <option value="$PROJECT_DIR$/app-tv/view/tv/AppList.js" />
+        <option value="$PROJECT_DIR$/app-tv/view/tv/AppList.php" />
+        <option value="$PROJECT_DIR$/app-tv/view/tv/AppList.phtml" />
+        <option value="$PROJECT_DIR$/app-tv/controller/Tv/AppList.php" />
+        <option value="$PROJECT_DIR$/app-web/index.php" />
+        <option value="$PROJECT_DIR$/app-web/config/interceptor.php" />
+        <option value="$PROJECT_DIR$/app-web/config/router.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/app-core/class/bll/web/Album.php" />
+        <option value="$PROJECT_DIR$/app-web/controller/web/Index.php" />
+        <option value="$PROJECT_DIR$/config/common.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Unnamed" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1276" />
+    <option name="height" value="778" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control FlowPHP</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralPHP</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Type compatibilityPHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rsf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rsf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fileservice" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app-tv/controller/Tv" />
+      <recent name="$PROJECT_DIR$/app-tv/view/tv" />
+      <recent name="$PROJECT_DIR$/app-admin/view/admin/fm" />
+      <recent name="$PROJECT_DIR$/app-admin/controller/admin/fm" />
+      <recent name="$PROJECT_DIR$/app-core/class/bll/fm" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="630395b2-735a-4f70-aeb9-5f6e0492ad49" name="Default" comment="" />
+      <created>1387524978929</created>
+      <updated>1387524978929</updated>
+    </task>
+    <task id="LOCAL-00001" summary="he&#10;">
+      <created>1387529013820</created>
+      <updated>1387529013820</updated>
+    </task>
+    <task id="LOCAL-00002" summary="random">
+      <created>1387535714489</created>
+      <updated>1387535714489</updated>
+    </task>
+    <task id="LOCAL-00003" summary="random&#10;">
+      <created>1387535945608</created>
+      <updated>1387535945608</updated>
+    </task>
+    <task id="LOCAL-00004" summary="random&#10;">
+      <created>1387536131281</created>
+      <updated>1387536131281</updated>
+    </task>
+    <task id="LOCAL-00005" summary="random&#10;">
+      <created>1387876030482</created>
+      <updated>1387876030482</updated>
+    </task>
+    <task id="LOCAL-00006" summary="random&#10;">
+      <created>1387944716096</created>
+      <updated>1387944716096</updated>
+    </task>
+    <task id="LOCAL-00007" summary="cat rank">
+      <created>1387945082377</created>
+      <updated>1387945082377</updated>
+    </task>
+    <task id="LOCAL-00008" summary="cat rank&#10;">
+      <created>1387962968090</created>
+      <updated>1387962968090</updated>
+    </task>
+    <task id="LOCAL-00009" summary="cat rank&#10;">
+      <created>1388030499699</created>
+      <updated>1388030499699</updated>
+    </task>
+    <task id="LOCAL-00010" summary="aac">
+      <created>1388050442332</created>
+      <updated>1388050442332</updated>
+    </task>
+    <task id="LOCAL-00011" summary="aac&#10;">
+      <created>1388370896668</created>
+      <updated>1388370896668</updated>
+    </task>
+    <task id="LOCAL-00012" summary="key">
+      <created>1388471485987</created>
+      <updated>1388471485987</updated>
+    </task>
+    <task id="LOCAL-00013" summary="version&#10;">
+      <created>1388727632408</created>
+      <updated>1388727632408</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commend">
+      <created>1388984971320</created>
+      <updated>1388984971320</updated>
+    </task>
+    <task id="LOCAL-00015" summary="一个后台管理的通用js类">
+      <created>1389085088543</created>
+      <updated>1389085088543</updated>
+    </task>
+    <task id="LOCAL-00016" summary="一个bug">
+      <created>1389085591328</created>
+      <updated>1389085591328</updated>
+    </task>
+    <task id="LOCAL-00017" summary="统一统一&#10;">
+      <created>1389154671659</created>
+      <updated>1389154671659</updated>
+    </task>
+    <task id="LOCAL-00018" summary="标题&#10;">
+      <created>1389155740890</created>
+      <updated>1389155740890</updated>
+    </task>
+    <task id="LOCAL-00019" summary="180*180">
+      <created>1389254428451</created>
+      <updated>1389254428451</updated>
+    </task>
+    <task id="LOCAL-00020" summary="判断ip&#10;">
+      <created>1389255838739</created>
+      <updated>1389255838739</updated>
+    </task>
+    <task id="LOCAL-00021" summary="增加推荐接口&#10;">
+      <created>1389258129394</created>
+      <updated>1389258129394</updated>
+    </task>
+    <task id="LOCAL-00022" summary="增加推荐接口&#10;">
+      <created>1389759654884</created>
+      <updated>1389759654884</updated>
+    </task>
+    <task id="LOCAL-00023" summary="comment">
+      <created>1389759906231</created>
+      <updated>1389759906231</updated>
+    </task>
+    <task id="LOCAL-00024" summary="comment&#10;">
+      <created>1389759990618</created>
+      <updated>1389759990618</updated>
+    </task>
+    <task id="LOCAL-00025" summary="comment&#10;">
+      <created>1389760121522</created>
+      <updated>1389760121522</updated>
+    </task>
+    <task id="LOCAL-00026" summary="comment&#10;">
+      <created>1389761762751</created>
+      <updated>1389761762751</updated>
+    </task>
+    <task id="LOCAL-00027" summary="comment&#10;">
+      <created>1389781107233</created>
+      <updated>1389781107233</updated>
+    </task>
+    <task id="LOCAL-00028" summary="comment&#10;">
+      <created>1389781218733</created>
+      <updated>1389781218733</updated>
+    </task>
+    <task id="LOCAL-00029" summary="comment&#10;">
+      <created>1389781289898</created>
+      <updated>1389781289898</updated>
+    </task>
+    <task id="LOCAL-00030" summary="comment&#10;">
+      <created>1389781715797</created>
+      <updated>1389781715797</updated>
+    </task>
+    <task id="LOCAL-00031" summary="监控">
+      <created>1389846003895</created>
+      <updated>1389846003895</updated>
+    </task>
+    <task id="LOCAL-00032" summary="监控&#10;">
+      <created>1389846120381</created>
+      <updated>1389846120381</updated>
+    </task>
+    <task id="LOCAL-00033" summary="监控&#10;">
+      <created>1389847442494</created>
+      <updated>1389847442494</updated>
+    </task>
+    <task id="LOCAL-00034" summary="comment&#10;">
+      <created>1389936948593</created>
+      <updated>1389936948593</updated>
+    </task>
+    <task id="LOCAL-00035" summary="comment">
+      <created>1389938112460</created>
+      <updated>1389938112460</updated>
+    </task>
+    <task id="LOCAL-00036" summary="comment&#10;">
+      <created>1389938194201</created>
+      <updated>1389938194201</updated>
+    </task>
+    <task id="LOCAL-00037" summary="comment&#10;">
+      <created>1389938397090</created>
+      <updated>1389938397090</updated>
+    </task>
+    <task id="LOCAL-00038" summary="comment&#10;">
+      <created>1389939663523</created>
+      <updated>1389939663523</updated>
+    </task>
+    <task id="LOCAL-00039" summary="comment&#10;">
+      <created>1389941111889</created>
+      <updated>1389941111889</updated>
+    </task>
+    <task id="LOCAL-00040" summary="comment&#10;">
+      <created>1389944549763</created>
+      <updated>1389944549763</updated>
+    </task>
+    <task id="LOCAL-00041" summary="comment&#10;">
+      <created>1389947257741</created>
+      <updated>1389947257741</updated>
+    </task>
+    <task id="LOCAL-00042" summary="ad">
+      <created>1390282350589</created>
+      <updated>1390282350589</updated>
+    </task>
+    <task id="LOCAL-00043" summary="ad&#10;">
+      <created>1390283743313</created>
+      <updated>1390283743313</updated>
+    </task>
+    <task id="LOCAL-00044" summary="ad&#10;">
+      <created>1390467868023</created>
+      <updated>1390467868023</updated>
+    </task>
+    <task id="LOCAL-00045" summary="ad&#10;">
+      <created>1390789689036</created>
+      <updated>1390789689036</updated>
+    </task>
+    <task id="LOCAL-00046" summary="url&#10;">
+      <created>1390888112156</created>
+      <updated>1390888112156</updated>
+    </task>
+    <task id="LOCAL-00047" summary="各种改&#10;">
+      <created>1390891818454</created>
+      <updated>1390891818454</updated>
+    </task>
+    <task id="LOCAL-00048" summary="各种改&#10;">
+      <created>1390892254195</created>
+      <updated>1390892254195</updated>
+    </task>
+    <task id="LOCAL-00049" summary="改下连接&#10;">
+      <created>1390892532009</created>
+      <updated>1390892532009</updated>
+    </task>
+    <task id="LOCAL-00050" summary="改url">
+      <created>1390892654575</created>
+      <updated>1390892654576</updated>
+    </task>
+    <task id="LOCAL-00051" summary="title">
+      <created>1390894096412</created>
+      <updated>1390894096413</updated>
+    </task>
+    <task id="LOCAL-00052" summary="bug&#10;">
+      <created>1391826516656</created>
+      <updated>1391826516656</updated>
+    </task>
+    <task id="LOCAL-00053" summary="注册同步登陆&#10;">
+      <created>1391828796684</created>
+      <updated>1391828796685</updated>
+    </task>
+    <task id="LOCAL-00054" summary="robots&#10;">
+      <created>1392086670474</created>
+      <updated>1392086670475</updated>
+    </task>
+    <task id="LOCAL-00055" summary="robots&#10;">
+      <created>1392190757176</created>
+      <updated>1392190757176</updated>
+    </task>
+    <task id="LOCAL-00056" summary="app-puzz&#10;">
+      <created>1392195294972</created>
+      <updated>1392195294972</updated>
+    </task>
+    <task id="LOCAL-00057" summary="增加接口&#10;">
+      <created>1392198552977</created>
+      <updated>1392198552978</updated>
+    </task>
+    <task id="LOCAL-00058" summary="调试数据">
+      <created>1392199380688</created>
+      <updated>1392199380688</updated>
+    </task>
+    <task id="LOCAL-00059" summary="api">
+      <created>1392365264326</created>
+      <updated>1392365264327</updated>
+    </task>
+    <task id="LOCAL-00060" summary="vesion&#10;">
+      <created>1392366680377</created>
+      <updated>1392366680377</updated>
+    </task>
+    <task id="LOCAL-00061" summary="tv&#10;">
+      <created>1392792885608</created>
+      <updated>1392792885608</updated>
+    </task>
+    <task id="LOCAL-00062" summary="music_match&#10;">
+      <created>1392886518394</created>
+      <updated>1392886518394</updated>
+    </task>
+    <task id="LOCAL-00063" summary="music_match&#10;">
+      <created>1392886576777</created>
+      <updated>1392886576777</updated>
+    </task>
+    <task id="LOCAL-00064" summary="music_match&#10;">
+      <created>1392886871834</created>
+      <updated>1392886871834</updated>
+    </task>
+    <task id="LOCAL-00065" summary="music_match&#10;">
+      <created>1392970417645</created>
+      <updated>1392970417645</updated>
+    </task>
+    <task id="LOCAL-00066" summary="music_match&#10;">
+      <created>1392975910544</created>
+      <updated>1392975910544</updated>
+    </task>
+    <task id="LOCAL-00067" summary="music_match&#10;">
+      <created>1392977977653</created>
+      <updated>1392977977654</updated>
+    </task>
+    <task id="LOCAL-00068" summary="music_match&#10;">
+      <created>1393317550116</created>
+      <updated>1393317550117</updated>
+    </task>
+    <task id="LOCAL-00069" summary="music_match&#10;">
+      <created>1393319042227</created>
+      <updated>1393319042227</updated>
+    </task>
+    <task id="LOCAL-00070" summary="music_match&#10;">
+      <created>1393319364457</created>
+      <updated>1393319364457</updated>
+    </task>
+    <task id="LOCAL-00071" summary="通知 通知">
+      <created>1393320898726</created>
+      <updated>1393320898727</updated>
+    </task>
+    <task id="LOCAL-00072" summary="tv subject&#10;">
+      <created>1393392188547</created>
+      <updated>1393392188547</updated>
+    </task>
+    <task id="LOCAL-00073" summary="app">
+      <created>1393563466146</created>
+      <updated>1393563466147</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1276" height="778" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2468652" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <MESSAGE value="增加推荐接口&#10;" />
+    <MESSAGE value="监控" />
+    <MESSAGE value="监控&#10;" />
+    <MESSAGE value="comment" />
+    <MESSAGE value="comment&#10;" />
+    <MESSAGE value="ad" />
+    <MESSAGE value="ad&#10;" />
+    <MESSAGE value="url&#10;" />
+    <MESSAGE value="各种改&#10;" />
+    <MESSAGE value="改下连接&#10;" />
+    <MESSAGE value="改url" />
+    <MESSAGE value="title" />
+    <MESSAGE value="bug&#10;" />
+    <MESSAGE value="注册同步登陆&#10;" />
+    <MESSAGE value="robots&#10;" />
+    <MESSAGE value="app-puzz&#10;" />
+    <MESSAGE value="增加接口&#10;" />
+    <MESSAGE value="调试数据" />
+    <MESSAGE value="api" />
+    <MESSAGE value="vesion&#10;" />
+    <MESSAGE value="tv&#10;" />
+    <MESSAGE value="music_match&#10;" />
+    <MESSAGE value="通知 通知" />
+    <MESSAGE value="tv subject&#10;" />
+    <MESSAGE value="app" />
+    <option name="LAST_COMMIT_MESSAGE" value="app" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app-web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-web/config/interceptor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-web/config/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="658">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-web/config/router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/class/RSF.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="219" column="47" selection-start="6542" selection-end="6542" vertical-scroll-proportion="-12.125" vertical-offset="2994" max-vertical-offset="3750">
+          <folding>
+            <marker date="1393578168000" expanded="false" signature="4497:4555" placeholder="..." />
+            <marker date="1393578168000" expanded="false" signature="4597:4619" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-core/class/dao/CacheDao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="209" column="35" selection-start="6498" selection-end="6498" vertical-scroll-proportion="-8.291667" vertical-offset="2936" max-vertical-offset="3570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/interceptor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="681">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-core/class/bll/web/Album.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="26" selection-start="482" selection-end="482" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-web/controller/web/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="21" selection-start="578" selection-end="578" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="28" selection-start="87" selection-end="87" vertical-scroll-proportion="0.07097792" vertical-offset="0" max-vertical-offset="634">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

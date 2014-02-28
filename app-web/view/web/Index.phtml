@@ -1,0 +1,317 @@
+<script>
+    try {
+        if(!parent.document.getElementById('Wrapper')){
+            if(confirm('检测到被电信dns劫持，是否重新刷新页面')) {
+                parent.location.reload();
+            }
+        }
+    } catch(e) {
+        alert('检测到被电信dns劫持，请重新刷新页面');
+    }
+</script>
+
+<div class="mainTop">
+        <div class="bannerTop">
+			<div class="bannerTopInner">
+				<?php foreach($banner_list as $k=>$v){ ?>
+				<div class="bannerContent">
+					<a href="<?=$v['url']?>"><img width="980" height="317" title="<?=$v['title']?>" src="<?=UrlBuilder::build_image_url($v['front_image'],980,317)?>" /></a>
+				</div>
+				<?php } ?>
+			</div>
+			<div id="bx-pager">
+				<?php $i=0; foreach($banner_list as $k=>$v){ ?>
+				<span>
+					<a data-slide-index="<?=$i?>" href="javascript:;"><img width="60" height="60" src="<?=UrlBuilder::build_image_url($v['son_image'],60,60)?>" /></a>
+				</span>
+				<?php $i++; } ?>
+			</div>
+        </div>
+        
+</div>
+<div class="recommend">
+    <div class="recommendTitle">
+        <h2><span class="titlebg"></span>新专辑推荐</h2>
+
+    </div>
+    <div class="recommendInner">
+        <ul id="recommendList" class="clearfix">
+        	<?php foreach($albumRecommend_list as $k=>$v){ ?>
+        	<li>
+                <h3>
+                	<a href="<?=Url_Album::build_view_url($v['album_id'])?>"><img src="<?=$v['album']["front_image"]?>" width="181" height="181" /></a>
+                	<?php if($v['album']['is_pub']==1):?>
+                	<a href="javascript:;" album_id="<?=$v['album_id']?>" class='playAlbum' title="播放专辑">播放专辑</a>
+                	<?php endif; ?>
+                </h3>
+                <h4 class="albumName"><a title="<?=$v['album']["names"]['region_name']?>" href="<?=Url_Album::build_view_url($v['album_id'])?>"><?=$v["album"]['names']['region_name']?></a></h4>
+                <p><a title="<?=$v['album']['author']?>" href="<?=$v['album']['author_url']?>"><?=$v['album']['author']?></a></p>
+            </li>
+        	<?php } ?>
+        </ul>
+         
+    </div>
+</div>
+<div class="rank">
+        <div class="rankTitle">
+        	 <h2><span class="titlebg"></span>RECO排行榜</h2>
+        </div>
+    	
+       
+        <div class="rankInner clearfix">
+        	<div class="singleRankInner" style="display:none;">
+        	<div class="clearfix styleSelect">
+        		
+	            <div class="fl">
+	            	<h3>本周单曲榜 <a href="javascript:;" class="" id="playRank" ><span></span>全部播放</a></h3>
+	            </div>
+	            <div class="fr">
+	            	<ul class="switch fr">
+	            		<li  id="openmore"><a href="/topmusic/"></a> </li>
+	            		<li  id="close"> </li>
+	            	</ul>
+	            	<span class="style fr">
+		            	<?php /*<a href="/topmusic/" id="all" class="current">全部</a>
+						<a href="#" id="pop">流行</a>
+						<a href="#" id="rock">摇滚</a>
+						<a href="#" id="folk">民谣</a>
+						<a href="#" id="rap">说唱</a>*/?>
+						<a href="/topmusic/" class="moreStyle">更多<span class="morebtn"></span></a>
+	            	</span>
+	            	
+	            </div>
+	    	</div>
+            <div  id="songlist">
+            	<div class="singleRank clearfix">
+	            	<ul class="fl br" id="">
+	            		<?php foreach($topmusic_info as $k=>$v){ ?>
+	            		<li>
+	            			<span class="ranknum rank<?=$k+1?>">
+	            				<?=$k+1?>
+	            			</span>
+	            			<div class="rankInfo">
+	            				<div class="albumCover fl">
+	            					<a href="<?=Url_Album::build_view_url($v['music_info']['album_id'])?>"><img width="50" height="50" src="<?=$v['music_info']['album']["front_image"]?>" alt="<?=$v['music_info']['names']['region_name'].' - '.$v['music_info']['author_name']?>" /></a>
+	            				</div>
+	            				<div class="fl albumInfo">
+	            					<h4 id="title_tag_<?=$v['music_id']?>" title="<?=$v['music_info']["names"]["region_name"]?>"><a href="<?=Url_Album::build_view_url($v['music_info']['album_id'])?>"><?=$v['music_info']["names"]["region_name"]?></a></h4>
+	            					<p class="singername" title="艺人名"><?=$v['music_info']['author_url']?></p>
+	            					<p class="listened" title="上周累计播放"><span></span><?=$v['play_num']?></p>
+	            				</div>
+	            				<div class="fr albumFun">
+	            					<?php if($v['music_info']['is_pub']==1) { ?>
+	            					<span class="playIcon">
+										<a class="playMusic listenOnline" music_id="<?=$v['music_id']?>" title="在线试听" music_id="239" href="javascript:;">在线试听</a>
+									</span>
+									<span>
+										<a class="addlist addPlayList" title="加入歌单" music_id=<?=$v['music_id']?> href="javascript:;">加入歌单</a>
+									</span>
+									<span>
+										<a class="myfavor" title="我的最爱" music_id="<?=$v['music_id']?>" href="javascript:;">我的最爱</a>
+									</span>
+									<span>
+										<a class="share" title="分享" music_id="<?=$v['music_id']?>" is_pub=<?=$v['music_info']['is_pub']?> href="javascript:;">分享</a>
+									</span>
+									<?php } else { ?>
+	                            	<span><img src="<?=UrlBuilder::build_static('images/noregion.png')?>" width="112" height="16" /></span>
+	                            <?php } ?>
+	            				</div>
+	            			</div>
+	            		</li>
+	            		<?php } ?>
+	            	</ul>
+	            	<ul class="fl" id="">
+	            		<?php foreach($topmusic_info1 as $k=>$v){ ?>
+	            		<li>
+	            			<span class="ranknum rank<?=$k+6?>">
+	            				<?=$k+6?>
+	            			</span>
+	            			<div class="rankInfo">
+	            				<div class="albumCover fl">
+	            					<a href="<?=Url_Album::build_view_url($v['music_info']['album_id'])?>"><img width="50" height="50" src="<?=$v['music_info']['album']["front_image"]?>" alt="<?=$v['music_info']['names']['region_name'].' - '.$v['music_info']['author_name']?>" /></a>
+	            				</div>
+	            				<div class="fl albumInfo">
+	            					<h4 id="title_tag_<?=$v['music_id']?>" title="<?=$v['music_info']["names"]["region_name"]?>"><a href="<?=Url_Album::build_view_url($v['music_info']['album_id'])?>"><?=$v['music_info']["names"]["region_name"]?></a></h4>
+	            					<p class="singername" title="艺人名"><?=$v['music_info']['author_url']?></p>
+	            					<p class="listened" title="上周累计播放"><span></span><?=$v['play_num']?></p>
+	            				</div>
+	            				<div class="fr albumFun">
+	            					<?php if($v['music_info']['is_pub']==1) { ?>
+	            					<span class="playIcon">
+										<a class="playMusic listenOnline" music_id="<?=$v['music_id']?>" title="在线试听" music_id="239" href="javascript:;">在线试听</a>
+									</span>
+									<span>
+										<a class="addlist addPlayList" title="加入歌单" music_id=<?=$v['music_id']?> href="javascript:;">加入歌单</a>
+									</span>
+									<span>
+										<a class="myfavor" title="我的最爱" music_id="<?=$v['music_id']?>" href="javascript:;">我的最爱</a>
+									</span>
+									<span>
+										<a class="share" title="分享" music_id="<?=$v['music_id']?>" is_pub=<?=$v['music_info']['is_pub']?> href="javascript:;">分享</a>
+									</span>
+									<?php } else { ?>
+	                            	<span><img src="<?=UrlBuilder::build_static('images/noregion.png')?>" width="112" height="16" /></span>
+	                            <?php } ?>
+	            				</div>
+	            			</div>
+	            		</li>
+	            		<?php } ?>
+	            	</ul>
+            	</div>
+            </div>
+        	</div>
+	            <div class="albumRank">
+	                <div class="albumRankTitle clearfix">
+	                    <h3 class="fl">本周专辑榜</h3>
+	                    <a class="moreStyle fr" href="/topalbum/">更多<span class="morebtn"></span></a>
+	                </div>
+	                <div>
+					<div id="albumRankList" class="clearfix">
+						<ul class="albumRankList group1 fl">
+							<?php foreach($topalbum_info as $k=>$v){ ?>
+							<li class="">
+								<span class="ranknum fl rank<?=$k+1?>"><?=$k+1?></span>
+								<div class="fl">
+								<h3>
+									<a href="<?=Url_Album::build_view_url($v['album_id'])?>">
+										<img width="127" height="127" src="<?=$v['album_info']['front_image']?>" alt="<?=$v['album_info']['names']['region_name']?>" />
+									</a>
+									<?php if($v['album_info']['is_pub']==1): ?>
+									<a href="javascript:;" album_id="<?=$v['album_id']?>" class="playBtn">播放</a>
+									<?php endif;?>
+								</h3>
+								<h4 class="songName"><a href="<?=Url_Album::build_view_url($v['album_id'])?>" title="<?=$v['album_info']['names']['region_name']?>"><?=$v['album_info']['names']['region_name']?></a></h4>
+								<a href="<?=$v['album_info']['author_url']?>" title="<?=$v['album_info']['author']?>" class="singer"><?=$v['album_info']['author']?></a>
+								</div>
+							</li>
+							<?php } ?>
+							<?php foreach($topalbum_info1 as $k=>$v){ ?>
+							<li class="">
+								<span class="fl ranknum rank<?=$k+6?>"><?=$k+6?></span>
+								<div class="fl">
+								<h3>
+									<a href="<?=Url_Album::build_view_url($v['album_id'])?>">
+										<img width="127" height="127" src="<?=$v['album_info']['front_image']?>" alt="<?=$v['album_info']['names']['region_name']?>" />
+									</a>
+									<?php if($v['album_info']['is_pub']==1): ?>
+									<a href="javascript:;" album_id="<?=$v['album_id']?>" class="playBtn">播放</a>
+									<?php endif;?>
+								</h3>
+								<h4 class="songName"><a title="<?=$v['album_info']['names']['region_name']?>" href="<?=Url_Album::build_view_url($v['album_id'])?>"><?=$v['album_info']['names']['region_name']?></a></h4>
+								<a href="<?=$v['album_info']['author_url']?>" title="<?=$v['album_info']['author']?>" class="singer"><?=$v['album_info']['author']?></a>
+								</div>
+							</li>
+							<?php } ?>
+						</ul>
+						
+					</div>
+	                </div>
+	            </div>
+            </div>
+            
+        </div>
+    
+<div class="findMusic">
+	<div class="findTitle">
+		<h2><span class="titlebg"></span>发现音乐</h2>
+	</div>   
+	<div class="demoInner clearfix">
+		<div class="clearfix demoTitle">
+			<div class="fl">
+				<h3>
+					上周热门Demo
+				</h3>
+			</div>
+			<a class="fr moreStyle" href="/demo/">
+				更多
+				<span class="morebtn"></span>
+			</a>
+		</div>
+		<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+		<div id="demolist" class="clearfix">
+			<ul class="fl br">
+				<?php foreach ($demo_list as $k=>$v){ ?>
+				<li music_id="<?=$v['music_id']?>" class="playDemo">
+					<span class="ranknum rank<?=$k+1?>"><?=$k+1?></span>
+					<div class="rankInfo">
+						<div class="fl demoInfo">
+							<h4 title="<?=$v['names']['region_name']?>">
+								<a href="<?=Url_Singer::build_view_url($v['user_id'])?>"><?=$v['names']['region_name']?></a>
+							</h4>
+							<p class="singername" title="<?=$v['user_info']['region_name']?>">
+								<a href="<?=Url_Singer::build_view_url($v['user_id'])?>" title="<?=$v['user_info']['region_name']?>"><?=$v['user_info']['region_name']?></a>
+							</p>
+						</div>
+						<div class="fr demoPlay">
+							<div class="playIcon">
+								<a href="javascript:;" music_id="<?=$v['music_id']?>"><span></span></a>
+							</div>
+							<div id="jp_container_1" class="jp-audio">
+								<div class="jp-type-single">
+									<div class="jp-gui jp-interface">
+										<ul class="jp-controls">
+											<li><a href="javascript:;" class="jp-play" tabindex="1"><span>play</span></a></li>
+											<li><a href="javascript:;" class="jp-pause" tabindex="1" style="display:none;"><span>pause</span></a></li>
+										</ul>
+									</div>
+								</div>
+							</div> 
+						</div>
+						<div class="fr demoSum">
+							
+							<!-- <span class="listened" title="上周累计播放"><span></span><?=$v['play_num']?></span> 以后可能需要，故注释掉-->
+							<a href="<?=Url_Album::build_demo_view_url($v['music_id'])?>" class="comment"><span></span><?=$v['comment_counts']?></a>
+						</div>
+					</div>
+				</li>
+				<?php } ?>
+			</ul>
+			<ul class="fl">
+				<?php foreach ($demo_list1 as $k=>$v){ ?>
+				<li music_id="<?=$v['music_id']?>" class="playDemo">
+					<span class="ranknum rank<?=$k+6?>"><?=$k+6?></span>
+					<div class="rankInfo">
+						<div class="fl demoInfo">
+							<h4 title="<?=$v['names']['region_name']?>">
+								<a href="<?=Url_Singer::build_view_url($v['user_id'])?>"><?=$v['names']['region_name']?></a>
+							</h4>
+							<p class="singername" title="<?=$v['user_info']['region_name']?>">
+								<a href="<?=Url_Singer::build_view_url($v['user_id'])?>" title="<?=$v['user_info']['region_name']?>"><?=$v['user_info']['region_name']?></a>
+							</p>
+						</div>
+						<div class="fr demoPlay">
+							<div class="playIcon">
+								<a href="javascript:;" music_id="<?=$v['music_id']?>" ><span></span></a>
+							</div>
+							<div id="jp_container_1" class="jp-audio">
+								<div class="jp-type-single">
+									<div class="jp-gui jp-interface">
+										<ul class="jp-controls">
+											<li><a href="javascript:;" class="jp-play" tabindex="1"><span>play</span></a></li>
+											<li><a href="javascript:;" class="jp-pause" style="display:none;" tabindex="1"><span>pause</span></a></li>
+										</ul>
+									</div>
+								</div>
+							</div> 
+						</div>
+						<div class="fr demoSum">
+<!-- 							<span class="listened" title="上周累计播放"><span></span><?=$v['play_num']?></span>  以后可能需要，故注释掉 -->
+							<a href="<?=Url_Album::build_demo_view_url($v['music_id'])?>" class="comment"><span></span><?=$v['comment_counts']?></a>
+						</div>
+					</div>
+				</li>
+				<?php } ?>
+			</ul>
+		</div>
+	</div>
+		    
+</div>
+         
+
+<?php $this->begain_script_block(); ?>
+<script>
+	var index = new Web.Index().init();
+    var playList = new Web.AddToPlayList();
+    playList.init();
+</script>
+<?php $this->end_script_block(); ?>

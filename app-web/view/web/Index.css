@@ -1,0 +1,675 @@
+a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+.rankTitle .style {
+	margin-top: 2px;
+}
+.rankTitle a {
+	color: #666666;
+	font-family: "Heiti SC";
+	font-size: 13px;
+	margin: 0 10px;
+}
+.rankTitle .style .current {
+	color: #C00000;
+	font-weight: bold;
+}
+.rankTitle #close {
+	display: none;
+	background: no-repeat scroll 0 0 transparent url(<?=UrlBuilder::build_static('images/icon/detailClose.png')?>);
+	width: 18px;
+	height: 18px;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+.rankTitle #openmore a {
+	background: no-repeat scroll 0 0 transparent url(<?=UrlBuilder::build_static('images/icon/detailOpen.png')?>);
+	width: 18px;
+	height: 18px;
+	text-indent: -9999px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0;
+}
+.slider .disable img {
+	cursor: default;
+	opacity: 0.7;
+/* 	filter: alpha(opacity:70); */
+}
+.rankTitle p {
+	display: none;
+	margin-top: 10px;
+}
+.rankTitle p a {
+	margin: 0 6px;
+	color: #666666;
+	font-family: "Heiti SC";
+	font-size: 13px;
+}
+.group2 {
+	display: none;
+}
+
+.albumRankList .songName a {
+	display: block;
+	width: 10em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.rankInner .singer {
+	width: 10em;
+	color: #666;
+}
+#bx-pager {
+	padding: 10px 2px;
+	visibility: visible;
+	position: relative;
+}
+.bannerTop {
+	overflow: hidden;
+	position: relative;
+}
+#bx-pager span {
+	display: inline-block;
+	width: 78px;
+	text-align: center;
+}
+#bx-pager span a img {
+	opacity: 0.5;
+	filter: alpha(opacity:50);
+}
+#bx-pager span .active img {
+	opacity: 1;
+	filter: alpha(opacity:100);
+}
+.bx-wrapper .bx-caption {
+	height: 50px;
+/* 	background: none repeat scroll 0 0 rgba(0,0,0,0.5); */
+	background: repeat-x scroll 0 0 transparent url(<?=UrlBuilder::build_static('images/index/bg_caption.png')?>);
+}
+.bx-wrapper .bx-caption span {
+	font-size: 20px;
+	font-family: "Heiti SC", sans-serif;
+	line-height: 50px;
+	padding: 0 10px;
+}
+.bx-wrapper {
+	width: 980px;
+	height: 317px;
+	overflow: hidden;
+}
+.mainTop {
+/* 	overflow: hidden; */
+	position: relative;
+/* 	overflow: hidden; */
+}
+#header {
+	position: relative;
+	z-index: 90;
+}
+#topNavi {
+	position: relative;
+	z-index: 90;
+}
+#content {
+	border-top: none;
+}
+.bannerTopInner div a img {
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	
+}
+.bannerContent {
+	display: none;
+}
+.recommend {
+	margin-top: 10px;
+}
+.recommendTitle {
+	padding: 10px 5px 0;
+	border: none;
+}
+.titlebg {
+	background: no-repeat scroll 0 0 transparent url(<?=UrlBuilder::build_static('images/index/indexUI.png')?>);
+	display: inline-block;
+	height: 12px;
+	width: 5px;
+	margin-right: 5px;
+}
+.recommend .recommendInner {
+	border: 1px solid #C9C9C9;
+	border-radius: 5px;
+	background: #FFFFFF;
+	padding: 0 10px 10px;
+	margin: 5px 0;
+}
+.singer {
+	height: 15px;
+	display: inline-block;
+}
+.play {
+	visibility: hidden;
+}
+.bx-viewport {
+	height: 317px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.bannerTopInner .bannerContent:first-child {
+	display: block;
+	z-index: 50;
+}
+
+#recommendList h3, #albumRankList h3, #singerRankList h3 {
+	position: relative;
+}
+#songlist .singleInfo .album {
+	display: block;
+}
+.rankTitle .clearfix div.fr {
+/* 	width: 332px; */
+/* 	width: 334px\0; */
+}
+#songlist .singleInfo .songName {
+	width: 15em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#songlist .singleInfo .album {
+	width: 15em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#songlist .singleInfo .Singer {
+	display: block;
+	width: 15em;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+#playRank {
+	margin-left: 10px;
+	color: #666;
+	font-weight: normal;
+	font-size: 13px;
+}
+#playRank:hover {
+	color: #333;
+	text-decoration: none;
+}
+#playRank span {
+	display: inline-block;
+	background: no-repeat scroll -11px -39px transparent url(<?=UrlBuilder::build_static('images/index/indexUI.png')?>);
+	height: 13px;
+	width: 13px;
+	margin-right: 5px;
+	vertical-align: text-top;
+}
+#recommendList p, #recommendList p a {
+	color: #666;
+}
+.recommendInner ul {
+/* 	height: 490px; */
+	overflow: hidden;
+	padding: 8px 0 0;
+}
+.recommendInner ul li {
+	float: left;
+	width: 188.6px;
+	padding: 0 0px 0 3px;
+	margin-top: 5px;
+	height: 225px;
+	overflow: hidden;
+}
+.recommendInner ul li p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 184px;
+}
+#songlist {
+	height: auto;
+}
+#songlist2 {
+    display:none;
+}
+#albumlist2 {
+    display:none;
+}
+#singerlist2 {
+    display:none;
+}
+#recommendList li h3 {
+/* 	background: no-repeat scroll 0 0 transparent url(<?=UrlBuilder::build_static('images/index/bg_hot.png')?>); */
+	width: 185px;
+	height: 182px;
+	text-align: center;
+	padding-top: 3px;
+}
+#recommendList li h3 img {
+	border: 1px solid #c9c9c9;
+}
+.singleRank li .singlePic {
+	float: left;
+	background: no-repeat scroll 0 0 transparent url(<?=UrlBuilder::build_static('images/index/bg_rank.png')?>);
+	width: 84px;
+	height: 81px;
+	text-align: center;
+	padding-top: 3px;
+}
+#albumRankList h3 {
+/* 	background: no-repeat scroll 0 0 transparent url(<?=UrlBuilder::build_static('images/index/bg_rank3.png')?>); */
+	width: 131px;
+	height: 128px;
+	text-align: center;
+	padding-top: 3px;
+}
+#albumRankList h3 img {
+	border: 1px solid #c9c9c9;
+}
+.playBtn {
+	right: 10px;
+}
+
+.rank {
+	margin-top: 5px;
+	
+}
+.rank .singleRankInner {
+	border: 1px solid #C9C9C9;
+	border-radius: 5px;
+	background: #FFFFFF;
+	padding: 5px 0 0;
+	margin: 5px 0 0;
+}
+.rankTitle {
+	padding: 10px 5px 3px;
+}
+.morebtn {
+	background: no-repeat scroll -51px -39px transparent url(<?=UrlBuilder::build_static('images/index/indexUI.png')?>);
+	display: inline-block;
+	width: 7px;
+	height: 9px;
+	margin-left: 5px;
+}
+.style a, a.moreStyle {
+	color: #666;
+	margin: 0 0 0 10px;
+}
+.style a:hover, a.moreStyle:hover {
+	color: #333;
+	text-decoration: none;
+}
+.style a.current {
+	color: #B70717;
+	font-weight: bold;
+}
+.styleSelect h3, .demoTitle h3 {
+	font-size: 14px;
+	font-family: Arial;
+}
+.styleSelect, .demoTitle {
+	border-bottom: 1px solid #c9c9c9;
+	padding: 0 10px 5px;
+}
+.singleRank ul li {
+	padding: 1px 15px;
+	border-top: 1px solid #c9c9c9;
+}
+.ranknum {
+	display: inline-block;
+	background-image: url(<?=UrlBuilder::build_static('images/index/indexUI.png')?>);
+	text-indent: -9999px;
+	width: 25px;
+	height: 17px;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.rank1 {
+	background-position: -6px -70px;
+}
+.rank2 {
+	background-position: -4px -125px;
+}
+.rank3 {
+	background-position: -4px -180px;
+}
+.rank4 {
+	background-position: -4px -235px;
+}
+.rank5 {
+	background-position: -4px -290px;
+}
+.rank6 {
+	background-position: -46px -70px;
+}
+.rank7 {
+	background-position: -46px -125px;
+}
+.rank8 {
+	background-position: -46px -180px;
+}
+.rank9 {
+	background-position: -46px -235px;
+}
+.rank10 {
+	background-position: -45px -290px;
+}
+.singleRank .rankInfo, #demolist .rankInfo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 410px;
+}
+#demolist .rankInfo {
+/* 	border-left: 1px solid #c9c9c9; */
+	padding-left: 5px;
+	width: 442px;
+}
+.albumFun a {
+	text-indent: -9999px;
+	display: inline-block;
+	background: no-repeat scroll 0 -0 transparent url(<?=UrlBuilder::build_static('images/index/indexUI.png')?>);
+	width: 12px;
+	height: 13px;
+	vertical-align: middle;
+}
+.albumFun .listenOnline {
+	background-position: -101px -5px;
+}
+.albumFun .listenOnline:hover {
+	background-position: -101px -22px;
+}
+.albumFun .addlist {
+	background-position: -132px -5px;
+}
+.albumFun .addlist:hover {
+	background-position: -132px -22px;
+}
+.albumFun .myfavor {
+	background-position: -163px -5px;
+}
+.albumFun .myfavor:hover {
+	background-position: -163px -23px;
+}
+.albumFun .favor {
+	background-position: -163px -48px;
+}
+
+.albumFun .share {
+	background-position: -193px -5px;
+	width: 15px;
+}
+.albumFun .share:hover {
+	background-position: -193px -22px;
+}
+.rankInfo .albumCover img, .demoCover {
+	border: 1px solid #c9c9c9;
+}
+.singleRank .albumCover, .demoCover {
+	margin-right: 15px;
+}
+.singleRank .albumInfo .singername {
+	font-size: 12px;
+	margin: 5px 0;
+	color: #666;
+	width: 215px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.singleRank .albumInfo .singername a {
+	color: #666;
+}
+.singleRank .listened {
+	font-size: 12px;
+}
+.singleRank .listened span {
+	background: no-repeat scroll -131px -49px transparent url(<?=UrlBuilder::build_static('images/index/indexUI.png')?>);
+	width: 14px;
+	height: 10px;
+	display: inline-block;
+}
+.singleRank .albumInfo {
+	font-size: 13px;
+}
+.albumFun {
+	line-height: 52px;
+}
+.albumFun span {
+	vertical-align: middle;
+	margin-left: 10px;
+}
+.singleRank ul {
+	width: 50%;
+	margin-bottom: 0;
+	margin-top: -1px;
+}
+.singleRank .br {
+	border-right: 1px solid #c9c9c9;
+	width: 488px;
+}
+.playIcon {
+	position: static;
+	text-align: left;
+}
+.singleRank h4 {
+	width: 215px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #333;
+}
+
+.albumRank {
+	background: #fff;
+	border: 1px solid #c9c9c9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px 0 10px;
+	margin-top: 5px;
+}
+.albumRank ul li {
+	float: left;
+	width: 165px!important;
+	margin: 10px 15px 0;
+}
+.albumRankTitle {
+	border-bottom: 1px solid #c9c9c9;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.albumRankTitle h3 {
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+}
+.rankInner h4 {
+	color: #333;
+}
+#albumRankList {
+/* 	padding: 10px 35px 0; */
+/* 	width: 908px; */
+/* 	width: 978px; */
+	position: relative;
+}
+.albumRankList .songName {
+	margin: 5px 0;
+}
+
+.rankInner .bx-wrapper {
+	width: auto;
+	height: auto;
+/* 	padding: 10px 51px 0; */
+	width: 875px;
+	margin: 10px auto 0;
+	position: static;
+}
+.rankInner .bx-wrapper .bx-controls-direction a {
+	background-image: url(<?=UrlBuilder::build_static('images/index/indexUI.png')?>);
+	width: 9px;
+	height: 16px;
+	margin-top: -30px;
+}
+.rankInner .bx-wrapper .bx-next {
+	background-position: -31px -323px;
+	right: 30px;
+}
+.rankInner .bx-wrapper .bx-next.disabled {
+	background-position: -31px -347px;
+	display: block;
+	cursor: default;
+}
+.rankInner .bx-wrapper .bx-prev {
+	background-position: -8px -323px;
+	left: 30px;
+}
+.rankInner .bx-wrapper .bx-prev.disabled {
+	background-position: -8px -347px;
+	display: block;
+	cursor: default;
+}
+.findMusic {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.findMusic .findTitle {
+	padding: 10px 5px 3px;
+}
+.findMusic .findTitle h2 {
+	color: #B70717;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+}
+.demoInner {
+	background: #fff;
+	border: 1px solid #c9c9c9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin: 5px 0 0;
+	padding: 5px 0 0;
+}
+#demolist ul {
+	margin-bottom: 0;
+	margin-top: -1px;
+	width: 50%;
+}
+#demolist .br {
+	border-right: 1px solid #c9c9c9;
+	width: 488px;
+}
+#demolist li:after {
+	clear: both;
+	overflow: hidden;
+	height: 0;
+	visibility: hidden;
+	display: block;
+	content: "";
+}
+#demolist li {
+	border-top: 1px solid #c9c9c9;
+	padding: 0 0 0 8px;
+}
+div.jp-audio {
+	width: auto;
+	background: none;
+	border: none;
+	display: none;
+}
+div.jp-audio div.jp-type-single div.jp-interface {
+	height: auto;
+	background: none;	
+}
+#demolist div.jp-audio ul.jp-controls, .playDemo .playIcon {
+	padding: 0px;
+	width: auto;
+	margin: 0;
+	border-left: 1px solid #c9c9c9;
+}
+#demolist .jp-controls li {
+	padding: 0;
+	border: none;
+}
+div.jp-interface ul.jp-controls a, .playDemo .playIcon a {
+	padding: 11px 13px 11px 15px;
+	width: auto;
+	height: auto;
+	display: block;
+}
+div.jp-interface ul.jp-controls a span, .playDemo .playIcon span {
+	background-image: url(<?=UrlBuilder::build_static('images/index/indexUI.png')?>);
+	width: 14px;
+	height: 18px;
+	display: block;
+}
+a.jp-play span, .playDemo .playIcon span {
+	background-position: -50px -375px;
+}
+a.jp-pause span {
+	background-position: -11px -375px;
+}
+.demoSum a {
+	padding: 0;
+	text-align: right;
+}
+.demoSum .comment span {
+	display: inline-block;
+	background-image: url(<?=UrlBuilder::build_static('images/index/indexUI.png')?>);
+	background-position: -162px -70px;
+	width: 15px;
+	height: 11px;
+	margin-right: 5px;
+}
+.demoSum .comment:hover {
+	color: #C00000;
+}
+.demoSum .comment:hover span {
+	background-position: -162px -87px;
+}
+.demoSum .listened span {
+	display: inline-block;
+	background-image: url(<?=UrlBuilder::build_static('images/index/indexUI.png')?>);
+	background-position: -131px -49px;
+	width: 13px;
+	height: 11px;
+	margin-right: 5px;
+}
+.demoSum a, .demoSum span {
+	font-size: 14px;
+	margin-top: 3px;
+	margin-right: 10px;
+	line-height: 40px;
+}
+.demoInfo h4 {
+	font-size: 14px;
+	margin: 5px 0 2px;
+	width: 258px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.demoInfo .singername {
+	font-size: 12px;
+	width: 258px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #666;
+}
+.demoInfo .singername a {
+	color: #666;
+}
+#albumRankList .ranknum {
+	margin-right: 9px;
+}
+.playDemo .ranknum {
+	margin-right: 4px;
+}
