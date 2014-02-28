@@ -2,7 +2,7 @@
 
 #nginx:
 
-
+```
 server {
         listen       80;
         server_name cache.qiushi.dev.reco.cn;
@@ -16,11 +16,12 @@ server {
             include        fastcgi_params;
         }
 }
-
+```
 
 #apache:
 apache需要打开rewrite模块
 
+```
 <VirtualHost *:80>
     DocumentRoot /var/www/music/app-web
     ServerName cache.qiushi.dev.reco.cn
@@ -32,7 +33,7 @@ apache需要打开rewrite模块
         RewriteRule . index.php [L,QSA]
     </Location>
 </VirtualHost>
-
+```
 2.php安装memcache扩展
 
 3.入口controller
@@ -54,4 +55,3 @@ config/database.php
 
 7.数据库的话
 reco_music->album->{album_id,desc}
-
