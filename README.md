@@ -1,9 +1,8 @@
 1.建立新的域名 指向app-web
 
-nginx:
+#nginx:
 
 
-#cache
 server {
         listen       80;
         server_name cache.qiushi.dev.reco.cn;
@@ -19,8 +18,8 @@ server {
 }
 
 
-apache:
-#apache需要打开rewrite模块
+#apache:
+apache需要打开rewrite模块
 
 <VirtualHost *:80>
     DocumentRoot /var/www/music/app-web
