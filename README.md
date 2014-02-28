@@ -52,3 +52,4 @@ config/database.php
 
 6.最好用自己数据库和memcache
 
+
