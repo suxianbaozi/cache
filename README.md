@@ -45,16 +45,18 @@ apache需要打开rewrite模块
 app-web/controller/web/index.php
 
 4.尝试访问
+···
 domain.com/?action=get_one
 domain.com/?action=get_list
 domain.com/?action=update
-
+···
 
 
 5.数据库和memcache配置文件
+···
 config/common.php
 config/database.php
-
+···
 
 6.最好用自己数据库和memcache
 
